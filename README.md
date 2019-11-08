@@ -5,9 +5,9 @@ The program itself can be found in my discord server:
 https://discord.gg/bfrGfJ8
 Under #software_releases channel
 
-This program may not be updated as often as the software itself... This is just to show how I extracted the events from 3 different .res files from the games .pak files into 1 json file... Enjoy!
+This program may not be updated as often as the software itself... This is just to show how I extracted the events from 3 different .res files from the games .vpk files into 1 json file... Enjoy!
 
-# Project
+## Project
 This program is designed to help the Java program (CSGO Event Finder) to show and filter all the events that can be accessed with Hammer.
 
 This program is written in C# (Not the note, haha! Didn't laugh... Did you?)
@@ -25,3 +25,14 @@ The following regex(s) patterns are:
 ```
 ^(?:\s+)\"(.*?)\"(?:\s+)\"(.*?)\"(?:\s+//\s(.+))?
 ```
+## Events
+The events were extracted from pak01_dir.vpk from the CSGO installation folder
+The following events (You can access them from this repository!) are found in Events folder from above!
+| Event | Event .res File | Type |
+| :-------------:|:-------------:| :-----:|
+| Mod Events | modevents.res | Mod Events |
+| Server Events | serverevents.res  |   Server-related events |
+| Game Events| gamevents.res |  Client-related events|
+
+## Note
+The program.cs doesn't have any direct file locations, please replace the "..." of where you plan to store these files! Thank you.
