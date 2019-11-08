@@ -28,11 +28,12 @@ The following regex(s) patterns are:
 ## Events
 The events were extracted from pak01_dir.vpk from the CSGO installation folder
 The following events (You can access them from this repository!) are found in Events folder from above!
-| Event | Event .res File | Type |
-| :-------------:|:-------------:| :-----:|
-| Mod Events | modevents.res | Mod Events |
-| Server Events | serverevents.res  |   Server-related events |
-| Game Events| gamevents.res |  Client-related events|
+
+| Event          | Event .res File   | Type                  |
+|:--------------:| :---------------: | :-------------------: |
+| Mod Events     | modevents.res     | Mod Events            |
+| Server Events  | serverevents.res  | Server-related events |
+| Game Events    | gamevents.res     | Client-related events |
 
 ## Note
 The program.cs doesn't have any direct file locations, please replace the "..." of where you plan to store these files! Thank you.
