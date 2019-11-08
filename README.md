@@ -7,7 +7,7 @@ Under #software_releases channel
 
 This program may not be updated as often as the software itself... This is just to show how I extracted the events from 3 different .res files from the games .pak files into 1 json file... Enjoy!
 
-#Project
+# Project
 This program is designed to help the Java program (CSGO Event Finder) to show and filter all the events that can be accessed with Hammer.
 
 This program is written in C# (Not the note, haha! Didn't laugh... Did you?)
