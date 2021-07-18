@@ -122,10 +122,10 @@ namespace csev_parser
         }
 
         // Location of where the *.res files
-        private static string location = @"C:\Users\Owner\Desktop\events";
+        private static string location = @"C:\Users\james\Desktop\events";
 
         // Location of where to output the final .yaml file
-        private static string outLocation = @"C:\Users\Owner\Desktop\events\events.yaml";
+        private static string outLocation = @"C:\Users\james\Desktop\events\events.yaml";
 
         // List of events and contents of the yaml file
         private static List<Event> events;

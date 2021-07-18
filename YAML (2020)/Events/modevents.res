@@ -42,6 +42,7 @@
 		"noscope"		"bool"  // kill happened without a scope, used for death notice icon
 		"thrusmoke"		"bool"  // hitscan weapon went through smoke grenade
 		"attackerblind"	"bool"  // attacker was blind from flashbang
+		"distance"		"float" // distance to victim in meters
 	}
 
 	"other_death"
@@ -714,6 +715,7 @@
 	{
 		"userid"		"short"
 		"reason"		"short"
+		"value"			"long"
 		"musickitmvps"	"long"
 		"nomusic"	"byte"
 	}
@@ -1083,6 +1085,7 @@
 		"x"		"float"
 		"y"		"float"
 		"z"		"float"
+		"urgent"	"bool"
 	}
 	
 	"player_ping_stop"
